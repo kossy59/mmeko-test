@@ -53,7 +53,7 @@ export default function Post({ params }: PostPageTypes) {
             >
                 <div className="lg:w-[calc(100%-540px)] h-full relative">
                     <Link
-                        href={`/profile/${params?.userId}`}
+                        href={'/'}
                         className="absolute text-gray-400 z-20 m-5 rounded-full bg-gray-700 p-1.5 hover:bg-gray-800"
                     >
                         <AiOutlineClose size="27"/>
