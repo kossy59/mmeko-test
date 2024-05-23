@@ -22,9 +22,9 @@ export const sidebarLinks = [
       label: "Create",
     },
     {
-      imgURL: "/assets/chat.svg",
-      route: "/chat",
-      label: "Chat",
+      imgURL: "/assets/message.png",
+      route: "/message",
+      label: "message",
     },
     
     
