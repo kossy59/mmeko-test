@@ -13,9 +13,7 @@ const nextConfig = {
         
     },
     images: {
-        domains: ["localhost"]
-        
-    
+        domains: ["cloud.appwrite.io"]
     }
 }
 

@@ -17,7 +17,6 @@ const UserProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
     try {
       const currentSession = await account.getSession("current");
       if (!currentSession) return
-
       const promise = await account.get() as any
       const profile = await useGetProfileByUserId(promise?.$id)
 

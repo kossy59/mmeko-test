@@ -1,0 +1,111 @@
+#host{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#host>div{
+    width: 48%;margin-top: 10px;
+}
+#top1{
+   font-size: 20px; 
+   text-align: center;
+}
+#top2{
+    text-align: center;color: rgb(255, 136, 0);
+}
+#inner,#outer{
+    display: flex;flex-direction: row;
+}
+#outer{
+    margin-bottom: 20px;
+}
+#outer>div{
+    margin-right: 30px;
+}
+#inner>div{
+    margin-right: 20px;
+}
+#button{
+    margin-top: 15px;
+}
+#display{
+    border:1px solid orange;
+    padding: 20px;text-align: left;border-radius: 10px;
+}
+#display h2{
+    color: white;
+}
+#display h1{
+    color: orange;font-size: 30px;
+}
+#in{
+    display:flex;flex-direction:row;justify-content:left;color:white;
+}#in>div{
+    margin-right: 60px;
+}
+#buttons>button{
+color: white;padding: 15px;background-color: orange;border-radius: 10px;width: 50%;margin: 20px;
+}
+#buttons{
+    display: flex;flex-direction: row;justify-content: space-evenly;
+}
+#funds{
+    border: 1px solid orange;padding: 20px;margin-top: 30px;height: 300px;border-radius: 10px;
+}
+#table,tr,th,td{
+font-size: 15px;padding: 10px;
+}
+#details{
+    color: #fff;
+}
+
+#details strong{
+    color: orange;padding-right: 10px;
+}
+#image{
+    width: 100%;height: 100%;border-radius: 10px;
+}
+
+#indetail{
+    display: flex;flex-direction: row;justify-content: space-between;
+}
+#indetail>div{
+    width: 47%;height: 400px;}
+
+    #buttonz{
+        display: flex;flex-direction: column;
+    }
+    #buttonz>button{
+        color: white;padding: 10px;background-color: orange;border-radius: 10px;width: auto;margin-top: 10px;
+        }
+        #buttonz>button:hover{
+            background-color: rgb(189, 126, 9);
+        }
+      #buttonz>  #btn1{
+            background-color: red;
+        }
+        #buttonz>#btn1:hover{
+            background-color: rgb(218, 32, 32);
+        }
+@media screen and (max-width:700px){
+    #data{
+        display: flex;flex-direction: column-reverse;
+    }
+    #indetail{
+      flex-direction: column;
+    }
+    #indetail>div{
+        width: 100%;height: 400px;}
+    
+    #host{
+        flex-direction: column;
+    }
+    #host>div{
+        width: 100%;
+        margin-top: 10px;
+    }
+    #table,tr,th,td{
+        font-size: 12px;
+        }
+}
